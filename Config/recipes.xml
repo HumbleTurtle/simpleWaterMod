@@ -1,0 +1,23 @@
+<configs>
+	<append xpath="/recipes">
+
+		<recipe name="Rain_Catcher_SWM" craft_time="30" count="1" always_unlocked="true">
+			<ingredient name="resourceScrapIron" count="50" />
+			<ingredient name="resourceRockSmall" count="50" />
+			<ingredient name="resourceClayLump" count="50" />
+		</recipe>
+
+		<recipe name="drinkJarRiverWater" craft_time="50" count="1" craft_area="WaterGatherer">
+			<ingredient name="drinkJarEmpty" count="1"/>
+		</recipe>
+
+		<recipe name="drinkCanRiverWater" craft_time="35" count="1" craft_area="WaterGatherer">
+			<ingredient name="drinkCanEmpty" count="1"/>
+		</recipe>
+
+		<recipe name="bucketRiverWater" craft_time="200" count="1" craft_area="WaterGatherer">
+			<ingredient name="bucketEmpty" count="1"/>
+		</recipe>
+
+	</append>
+</configs>
